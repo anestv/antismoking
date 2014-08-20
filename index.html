@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Copyright © 2013
+    Varsamidis A., Kechribari E., Karabasi M.
+    Βαρσαμίδης Α., Κεχριμπάρη Ε., Καραμπάση Μ.
+    
+    All content licensed under CC-BY-NC-ND 3.0 GR unless otherwise specified.
+    Το περιεχόμενο διατίθεται υπό την άδεια CC-BY-NC-ND 3.0 GR εκτός αν αναφέρεται διαφορετικά.
+-->
+<meta charset="utf-8">
+<title>Anti Smoking</title>
+<link rel="stylesheet" type="text/css" href="./csss/index.css"/>
+<script src="./jss/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="./jss/index.js"></script>
+</head>
+<body>
+
+<div id="progress">
+    Επισκεφτήκατε 0 από τα 7 μέρη
+</div>
+
+<div id='tutorial'>
+    <span>x</span>
+    Καλωσήρθατε!<br>
+    Αυτή είναι μια εφαρμογή που έχει σκοπό να δείξει τις συνέπειες του καπνίσματος. Επισκεφτείτε όλα τα μέρη και βρείτε ενδιαφέροντα στοιχεία! 
+</div>
+
+<noscript>
+    Ενεργοποιήστε το JavaScript για να μπορείτε να χρησιμοποιήσετε σωστά αυτή την ιστοσελίδα. Αν χρησιμοποιείτε Internet Explorer, συνιστούμε να δείτε την ιστοσελίδα με διαφορετικό περιηγητή.
+</noscript>
+
+<img src="./basee.jpg" usemap="#imgmap20131114192614">
+<map id="imgmap20131114192614" name="imgmap20131114192614">
+    <area shape="circle" id="help" onclick="clicked('faq')" title="Βοήθεια" coords="69,63,51" />
+    <area shape="poly" title="Νοσοκομείο" coords="246,150,267,162,263,320,289,331,438,226,438,63,396,43" onclick="clicked('hospital')" />
+    <area shape="poly" title="Τράπεζα" coords="284,463,267,559,326,647,456,555,462,457,400,384" onclick="clicked('bank')"/>
+    <area shape="poly" title="Στατιστική" coords="530,309,509,375,592,463,766,345,781,275,699,181" onclick="clicked('stats')"/>
+    <area shape="poly" title="Λαθρεμπόριο" coords="445,1,501,67,599,58,566,2" onclick="clicked('people')"/>
+    <area shape="poly" title="Αστυνομία" coords="234,151,256,163,262,359,134,446,108,427,123,388,114,258,107,232" onclick="clicked('police')"/>
+    <area shape="poly" title="Δάσος" coords="3,259,57,225,106,256,118,395,104,429,115,449,4,537" onclick="clicked('forest')"/>
+    <area shape="poly" title="Πολυκατοικίες" coords="932,278,913,281,733,92,737,-2,927,2" onclick="clicked('building')"/><!-- Created by Online Image Map Editor (http://www.maschek.hu/imagemap/index) -->
+</map>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+/*Copyright © 2013
+    Varsamidis A., Kechribari E., Karabasi M.
+    Βαρσαμίδης Α., Κεχριμπάρη Ε., Καραμπάση Μ.
+    
+    All content licensed under CC-BY-NC-ND 3.0 GR unless otherwise specified.
+    Το περιεχόμενο διατίθεται υπό την άδεια CC-BY-NC-ND 3.0 GR εκτός αν αναφέρεται διαφορετικά.
+*/
+
+area{
+    cursor:pointer;
+    display:inline;
+}
+#help{
+    cursor:help;
+}
+#progress{
+    position:absolute;
+    top:0.8em;
+    left:7.5em;
+    padding:10px;
+    font-size:1.3em;
+    background:rgba(122, 230, 125,0.6);
+    border-radius:5px;
+    z-index:1;
+}
+img{
+    z-index:0;
+}
+#tutorial{
+    z-index:2;
+    position:absolute;
+    display:none;
+    max-width:250px;
+    padding:10px;
+    background:rgba(140, 201, 255,0.7);
+    border-radius:5px;
+    color:#700606;
+    font-size:1.1em;
+    font-family:Arial;
+    text-align:justify;
+    left:25%;
+    top:30%;
+}
+span{
+    cursor:pointer;
+    float:right;
+    background:#ff0000;
+    color:#ffffff;
+    border-radius:5px;
+    margin:0;
+    padding:2px;
+    width:15px;
+    height:15px;
+    text-align:center;
+}
+
+noscript{
+    z-index:50;
+    position:absolute;
+    background:rgba(255,255,255,0.7);
+    color:#000000;
+    width:500px;
+    left:15%;
+    top:10%;
+    font-size:30px;
+}

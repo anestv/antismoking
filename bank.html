@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Copyright © 2013
+    Varsamidis A., Kechribari E., Karabasi M.
+    Βαρσαμίδης Α., Κεχριμπάρη Ε., Καραμπάση Μ.
+    
+    All content licensed under CC-BY-NC-ND 3.0 GR unless otherwise specified.
+    Το περιεχόμενο διατίθεται υπό την άδεια CC-BY-NC-ND 3.0 GR εκτός αν αναφέρεται διαφορετικά.
+-->
+<meta charset="utf-8">
+<title>Anti Smoking</title>
+<link rel="stylesheet" type="text/css" href="./csss/infoboxes.css"/>
+<script src="./jss/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="./jss/bank.js"></script>
+<style type="text/css">
+    body{background: #a0b87d url(./backgrounds/bankback.jpg) no-repeat top center;}
+    input{width:50px;}
+    p{display:none;}
+    .small{color: #0000ff;text-decoration:underline;font-size:1em;text-align:left;cursor:pointer;}
+    #calculator{display:none;}
+</style>
+</head>
+<body>
+
+<div id="bigdiv">
+    <p>
+        Το κάπνισμα αποδεδειγμένα επιδεινώνει την οικονομική κατάσταση των καπνιστών. Αν λάβουμε υπόψιν και την οικονομική κρίση, αυτός είναι ένας ακόμα λόγος για έναν κόσμο χωρίς τσιγάρο!
+    </p>
+    <p class="small">
+        Δείτε πόσο κοστίζει το κάπνισμα ετησίως:
+    </p>
+    
+    <div id="calculator">
+        Πακέτα/ημέρα: <input id="packets">
+        Κόστος πακέτου: <input id="cost" value="3.50">
+        <input type="button" id="buttonn" value="OK">
+        <p id="result"></p>
+    </div>
+</div>
+
+</body>
+</html>
